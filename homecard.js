@@ -9,7 +9,7 @@
     dialog.setAttribute("header-text", "New Hire Survey");
     footer.setAttribute("slot", "footer");
     // content
-    content.innerHTML = `<p>Your experience matters to us, and we'd love to hear your thoughts on our onboarding process. Please take a moment to complete our brief survey. Your participation and feedback will help us improve our processes.</p><p><a href="https://beldenex.sjc1.qualtrics.com/jfe/form/SV_8oJYB49V73q98gu?${userId}">Take the survey</a></p>`;
+    content.innerHTML = `<p>Your experience matters to us, and we'd love to hear your thoughts on our onboarding process. Please take a moment to complete our brief survey. Your participation and feedback will help us improve our processes.</p><p><a href="https://beldenex.sjc1.qualtrics.com/jfe/form/SV_8oJYB49V73q98gu?userId=${userId}">Take the survey</a></p>`;
     content.style.padding = "1rem";
     // footer btn
     footerBtn.onclick = () => dialog.close();
