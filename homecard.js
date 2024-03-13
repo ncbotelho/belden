@@ -4,7 +4,7 @@
     const content = document.createElement("div");
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
-    const userId = document.getElementById("userId");
+    const userId = document.querySelector("meta[name='userId']").getAttribute("content");
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
